@@ -1,0 +1,1 @@
+import{j as o}from"./jsx-runtime-BImULq_5.js";function m({interactive:r,flush:a,className:t,children:e,...i}){return o.jsx("div",{className:["mb-card",r&&"mb-card--interactive",a&&"mb-card--flush",t].filter(Boolean).join(" "),...i,children:e})}export{m as C};

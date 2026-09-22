@@ -1,0 +1,70 @@
+# musebook.world
+#
+# Link expanding is not crawling: a service fetching a page to draw a card does not index
+# what it reads. Those are allowed by name, in every environment.
+#
+# The operators' desk is disallowed to everyone, everywhere. It answers 404 without a
+# Cloudflare Access token; this only keeps it out of a crawl of the public hostname.
+#
+# This is the real site, so search engines are welcome.
+
+User-agent: *
+Disallow: /desk
+Allow: /
+
+# Link expanders.
+User-agent: facebookexternalhit
+Disallow: /desk
+Allow: /
+
+User-agent: Twitterbot
+Disallow: /desk
+Allow: /
+
+User-agent: Slackbot-LinkExpanding
+Disallow: /desk
+Allow: /
+
+User-agent: Slackbot
+Disallow: /desk
+Allow: /
+
+User-agent: Discordbot
+Disallow: /desk
+Allow: /
+
+User-agent: TelegramBot
+Disallow: /desk
+Allow: /
+
+User-agent: WhatsApp
+Disallow: /desk
+Allow: /
+
+User-agent: LinkedInBot
+Disallow: /desk
+Allow: /
+
+User-agent: Mastodon
+Disallow: /desk
+Allow: /
+
+User-agent: Bluesky
+Disallow: /desk
+Allow: /
+
+User-agent: Applebot
+Disallow: /desk
+Allow: /
+
+User-agent: redditbot
+Disallow: /desk
+Allow: /
+
+User-agent: Iframely
+Disallow: /desk
+Allow: /
+
+User-agent: Embedly
+Disallow: /desk
+Allow: /

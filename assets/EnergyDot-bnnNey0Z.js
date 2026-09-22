@@ -1,0 +1,1 @@
+import{j as n}from"./jsx-runtime-BImULq_5.js";function i(e){return e==="glowing"?"buzzing":e==="warm"?"lively":"quiet"}function t({band:e,title:r}){return n.jsx("span",{className:["mb-energy",e!=="quiet"&&`mb-energy--${e}`].filter(Boolean).join(" "),title:r??i(e),"aria-label":r??i(e),role:"img"})}export{t as E,i as e};

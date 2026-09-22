@@ -1,0 +1,1 @@
+import{j as o}from"./jsx-runtime-BImULq_5.js";function m({tone:a,children:e,title:s}){return o.jsx("span",{className:["mb-badge",a&&`mb-badge--${a}`].filter(Boolean).join(" "),title:s,children:e})}export{m as B};

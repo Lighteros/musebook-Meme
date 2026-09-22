@@ -1,0 +1,1 @@
+import{r as n,j as r}from"./jsx-runtime-BImULq_5.js";const u=({to:t,prefetch:e,children:s,...i})=>r.jsx("a",{href:t,...i,children:s}),o=n.createContext(u);function x({component:t,children:e}){return r.jsx(o.Provider,{value:t,children:e})}function c(){return n.useContext(o)}export{x as L,c as u};

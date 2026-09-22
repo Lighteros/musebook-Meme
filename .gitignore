@@ -1,0 +1,6 @@
+.vercel
+.DS_Store
+Thumbs.db
+_clone.mjs
+_finalize.mjs
+_clone-report.json
